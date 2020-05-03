@@ -1,5 +1,5 @@
 <template>
-    <div>远程修改</div>
+    <div>远程修改 的垃圾分类肯德基阿里</div>
 </template>
 
 <script>
