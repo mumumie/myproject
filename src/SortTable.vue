@@ -1,5 +1,5 @@
 <template>
-    <div style="width:800px">
+    <div style="width:600px">
         <el-table :data="tableData"
                   border
                   row-key="id"
