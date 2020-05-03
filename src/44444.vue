@@ -1,5 +1,5 @@
 <template>
-    <div>daoru</div>
+    <div>xianghfladsjlfjadjfkljdasjfklj</div>
 </template>
 
 <script>
