@@ -37,20 +37,30 @@
                             align: 'center',
                             actions: [
                                 {
-                                    text: '查看角色',
+                                    text: '查看',
                                     onclick: (item) => {
                                         // item是当前行的数据
-                                        console.log(item)
+                                        console.log('查看',item)
                                     },
                                     formatter: (item) => {
-                                        return '<i>查看角色</i>'
+                                        return '<i>查看</i>'
+                                    }
+                                },
+                                {
+                                    text: '角色',
+                                    onclick: (item) => {
+                                        // item是当前行的数据
+                                        console.log('角色',item)
+                                    },
+                                    formatter: (item) => {
+                                        return '<i>角色</i>'
                                     }
                                 },
                                 {
                                     text: '编辑',
                                     onclick: (item) => {
                                         // item是当前行的数据
-                                        console.log(item)
+                                        console.log('编辑',item)
                                     },
                                     formatter: (item) => {
                                         return '<i>编辑</i>'
