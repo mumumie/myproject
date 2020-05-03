@@ -35,6 +35,11 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  created(){
+    this.http.get('/user').then(res=>{
+      console.log(res)
+    })
   }
 }
 </script>
