@@ -17,6 +17,16 @@ const router = new Router({
             name: 'SelectTable',
             component: () => import('./SelectTable.vue')
         },
+        {
+            path: '/sorttable',
+            name: 'SortTable',
+            component: () => import('./SortTable.vue')
+        },
+        {
+            path: '/dragtreetable',
+            name: 'DragTreeTable',
+            component: () => import('./DragTreeTable.vue')
+        },
     ]
 })
 // 导出路由
