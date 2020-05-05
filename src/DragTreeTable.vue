@@ -126,7 +126,7 @@
                 this.treeData.lists = list;
             },
             onCheck(row){
-                console.log(row);
+                console.log('是否勾选', row);
             }
         }
     };
