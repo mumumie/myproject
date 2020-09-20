@@ -8,6 +8,13 @@ Vue.use(ElementUI);
 Vue.prototype.http = Axios;
 Vue.config.productionTip = false
 
+import VueSocketIO from 'vue-socket.io'
+
+Vue.use(new VueSocketIO({
+    debug: true,
+    connection: 'http://localhost:4000',  //
+}))
+
 new Vue({
   render: h => h(App),
   router,

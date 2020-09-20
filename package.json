@@ -13,8 +13,13 @@
     "core-js": "^3.6.4",
     "diff-match-patch": "^1.0.4",
     "element-ui": "^2.13.1",
+    "express": "^4.17.1",
+    "file-saver": "^2.0.2",
+    "jszip": "^3.4.0",
+    "jszip-utils": "^0.1.0",
     "vue": "^2.6.11",
     "vue-router": "^3.1.6",
+    "vue-socket.io": "^3.0.10",
     "vuedraggable": "^2.23.2"
   },
   "devDependencies": {
@@ -22,9 +27,13 @@
     "@vue/cli-plugin-eslint": "^4.2.0",
     "@vue/cli-service": "^4.2.0",
     "babel-eslint": "^10.0.3",
+    "docxtemplater": "^3.17.6",
     "drag-tree-table": "^2.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
+    "pizzip": "^3.0.6",
+    "redis": "^3.0.2",
+    "socket.io": "^2.3.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {

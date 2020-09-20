@@ -27,6 +27,21 @@ const router = new Router({
             name: 'DragTreeTable',
             component: () => import('./DragTreeTable.vue')
         },
+        {
+            path: '/select',
+            name: 'Select',
+            component: () => import('./Select.vue')
+        },
+        {
+            path: '/word',
+            name: 'word',
+            component: () => import('./exportWord.vue')
+        },
+        {
+            path: '/socket',
+            name: 'socket',
+            component: () => import('./socket.vue')
+        },
     ]
 })
 // 导出路由
