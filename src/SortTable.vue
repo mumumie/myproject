@@ -50,25 +50,29 @@
                         id: '1',
                         date: '2016-05-02',
                         name: '王小虎1',
-                        address: '上海市普陀区金沙江路 10000 弄'
+                        address: '上海市普陀区金沙江路 10000 弄',
+                        aaa: {name: 'fjj'}
                     },
                     {
                         id: '2',
                         date: '2016-05-04',
                         name: '王小虎2',
-                        address: '上海市普陀区金沙江路 200 弄'
+                        address: '上海市普陀区金沙江路 200 弄',
+                        aaa: {name: 'fjj'}
                     },
                     {
                         id: '3',
                         date: '2016-05-01',
                         name: '王小虎3',
-                        address: '上海市普陀区金沙江路 300 弄'
+                        address: '上海市普陀区金沙江路 300 弄',
+                        aaa: {name: 'fjj'}
                     },
                     {
                         id: '4',
                         date: '2016-05-03',
                         name: '王小虎4',
-                        address: '上海市普陀区金沙江路 400 弄'
+                        address: '上海市普陀区金沙江路 400 弄',
+                        aaa: {name: 'fjj'}
                     }
                 ]
             }
