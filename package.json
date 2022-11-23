@@ -33,7 +33,7 @@
     "eslint-plugin-vue": "^6.1.2",
     "pizzip": "^3.0.6",
     "redis": "^3.0.2",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.5.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
